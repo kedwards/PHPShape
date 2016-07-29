@@ -1,0 +1,10 @@
+fieldset {
+	border: auto;
+}
+div#floatbox {
+	filter: alpha(opacity=80, finishopacity=0);
+	white-space: nowrap;
+}
+div#background {
+	height: 100%;
+}

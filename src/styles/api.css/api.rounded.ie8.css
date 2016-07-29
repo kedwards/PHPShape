@@ -1,0 +1,86 @@
+/* containers canceling standard borders in favor of picturized ones */
+.rounded {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.rounded-top {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.rounded-bottom {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* horizontal top pixel */
+div.rounded-t {
+	background-image: url('imgs/radius4-pixel.png');
+	background-position: top left;
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}
+/* vertical right pixel */
+div.rounded-r {
+	background-image: url('imgs/radius4-pixel.png');
+	background-position: top right;
+	background-repeat: repeat-y;
+	margin: 0;
+	padding: 0;
+}
+/* horizontal bottom pixel */
+div.rounded-b {
+	background-image: url('imgs/radius4-pixel.png');
+	background-position: bottom right;
+	background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+}
+/* vertical left pixel */
+div.rounded-l {
+	background-image: url('imgs/radius4-pixel.png');
+	background-position: top left;
+	background-repeat: repeat-y;
+	margin: 0;
+	padding: 0;
+}
+/* top left corner */
+div.rounded-tl {
+	background-image: url('imgs/radius4-tl.gif');
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+/* top right corner */
+div.rounded-tr {
+	background-image: url('imgs/radius4-tr.gif');
+	background-position: top right;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+/* bottom right corner */
+div.rounded-br {
+	background-image: url('imgs/radius4-br.gif');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+/* bottom left corner */
+div.rounded-bl {
+	background-image: url('imgs/radius4-bl.gif');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+/* standard fieldset decoration */
+fieldset.rounded-d {
+	margin: 0;
+	padding: 0;
+}

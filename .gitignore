@@ -1,0 +1,16 @@
+# all backup files
+*~
+
+# all zend project folders and files
+.settings/
+.cache/
+.project
+.buildpath
+.zfproject.xml
+
+# ZendFramework library
+library/Zend
+!library/.marker
+
+# Cache
+!data/cache/.marker

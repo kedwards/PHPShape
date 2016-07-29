@@ -1,0 +1,52 @@
+/* tab'ed sub-sub menu: used in groups management */
+div#subsubmenu_box {
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	margin-top: 1em;
+}
+ul#subsubmenu {
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	padding-left: 5px;
+	list-style-type: none;
+
+	/* add a border top shadowed bottom border draw */
+	background-image: url('imgs/shadow_top.png');
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+ul#subsubmenu li {
+	height: 19px;
+	line-height: 19px;
+}
+ul#subsubmenu li.optmenu {
+	float: left;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+
+	/* add a bottom border draw, matching the shadowed one */
+	background-image: url('imgs/radius4-pixel.png');
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+ul#subsubmenu li.optmenu.selected {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	background-image: none;
+}
+ul#subsubmenu a.optmenu {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding-left: 2.4em;
+	padding-right: 2.4em;
+}

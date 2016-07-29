@@ -1,0 +1,129 @@
+/* page main containers */
+div#background {
+	background-color: white;
+	margin-bottom: -18px;
+}
+div#header {
+	text-align: left;
+	background-color: transparent;
+/*
+	background-image: url('imgs/background.png');
+	background-position: top right;
+	background-repeat: no-repeat;
+*/
+	height: 140px;
+}
+div#head {
+	border-bottom: 10px solid #336699;
+}
+div#content {
+}
+div#innercontent {
+	margin: 12px;
+}
+div#gimeheight {
+	height: 18px;
+	margin: 0;
+	padding: 0;
+	margin-top: -18px;
+}
+div#footer {
+	background-color: white;
+	height: 14px;
+	text-align: right;
+	font-size: 0.7em;
+	line-height: 13px;
+}
+
+/* menus */
+div#logmenu {
+	float: right;
+	color: black;
+	height: 32px;
+	white-space: nowrap;
+}
+
+div#menu_box {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	height: 22px;
+	margin-top: 52px;
+}
+ul#menu {
+	clear: both;
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+
+	float: right;
+}
+ul#menu li.menu {
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	border: none;
+
+	margin-left: 1px;
+	height: 22px;
+	line-height: 22px;
+	background-color: #336699;
+}
+ul#menu li.menu.selected {
+	background-color: #3399cc;
+}
+ul#menu a {
+	padding-left: 2em;
+	padding-right: 2em;
+
+	font-size: 0.9em;
+	font-weight: bold;
+	text-shadow: 1px -1px 1px #666666;
+	color: white;
+	text-decoration: none;
+}
+
+div#submenu_box {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	margin-top: 11px;
+}
+ul#submenu {
+	clear: both;
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	height: 22px;
+}
+ul#submenu li.menu {
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+	border: none;
+
+	margin-right: 1px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #a0b3bd;
+}
+ul#submenu li.menu.selected {
+	background-color: #3399cc;
+}
+ul#submenu a {
+	padding-left: 2.4em;
+	padding-right: 2.4em;
+	color: white;
+
+	font-size: 0.9em;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 1px -1px 1px #999999;
+	color: white;
+}

@@ -1,0 +1,365 @@
+* {}
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e5e6e5;
+	height: 100%;
+	text-align: center;
+}
+
+div, form, h1, h2, h3, h4, h5, h6, p, fieldset, dl, dt, dd, table, tr, td, ul {
+	margin: 0;
+	padding: 0;
+	white-space: normal;
+}
+
+h1 {
+	font-size: 1.3em;
+}
+h2 {
+	font-size: 1.2em;
+}
+h3 {
+	font-size: 1.1em;
+}
+h4 {
+	font-size: 1em;
+}
+h5 {
+	font-size: 0.9em;
+}
+h6 {
+	font-size: 0.8em;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+fieldset {
+	padding: 0.3em;
+	border-radius: 4px;
+}
+
+ul, li {
+	overflow: visible;
+}
+
+input, select, button, textarea {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 0.9em;
+}
+
+a {
+	color: #0000ee;
+}
+
+.small {font-size: 0.8em;}
+.right {float: right; text-align: right;}
+.left {float: left; text-align: left;}
+.center {text-align: center;}
+.clearboth {
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+}
+
+legend, legend a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #0046d5;
+}
+
+.form {
+	line-height: 1.8em;
+}
+fieldset.form {
+}
+legend.form {
+}
+dl.form {
+	clear: left;
+	margin: 0.5em;
+}
+dt.form {
+	float: left;
+}
+label.form {
+	font-weight: bold;
+}
+dd.form {
+	vertical-align: top;
+}
+dt.form.tab {
+	width: 35%;
+	text-align: right;
+}
+dd.form.tab {
+	margin-left: 35%;
+}
+
+/* mains */
+div#background {
+	vertical-align: top;
+	text-align: left;
+	width: 995px;
+	min-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -18px;
+}
+div#gimeheight {
+	height: 18px;
+	margin: 0;
+	padding: 0;
+	margin-top: -18px;
+}
+div#footer {
+	width: 995px;
+	height: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	font-size: 0.7em;
+	line-height: 13px;
+}
+
+/* --- */
+div#form_actions {
+	text-align: center;
+	clear: both;
+}
+
+div.breadscrumb_actions {
+	float: right;
+	white-space: nowrap;
+}
+div.content_left_actions {
+	float: left;
+}
+div.content_right_actions {
+	float: right;
+}
+
+div.tree_root.smallbox {
+	height: 23px;
+}
+
+p.errormsg {
+	text-align: center;
+	white-space: normal;
+}
+div#treecontentcombined p.errormsg {
+	min-height: 120px;
+}
+div#treecontent p.errormsg {
+	min-height: 120px;
+}
+p.errorback {
+	text-align: center;
+}
+
+h1#page_title {
+	border: 1px #000000 outset;
+	padding: 1em;
+	text-align: center;
+}
+
+div#warnings {
+	padding: 0.5em;
+	border: 1px solid #d0d0bf;
+	margin-bottom: 4px;
+	border-radius: 4px;
+}
+div#warnings ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+div#rstats_global {
+	text-align: center;
+}
+div.rstats {
+	margin-top: 4px;
+	padding: 4px;
+	background-color: #ffffff;
+	border: 1px #98AAB1 solid;
+	vertical-align: top;
+	text-align: left;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+/* class for js */
+.clickable {
+}
+.linkable {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000000;
+}
+.actionable {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000000;
+}
+.catchable {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000000;
+}
+.ispecial {
+}
+
+div#floatbox {
+	position: absolute;
+	vertical-align: top;
+	overflow: hidden;
+	background-color: #f0f0fe;
+	border: 1px solid gray;
+	top: 0px;
+	left: 0px;
+	padding-right: 1em;
+	z-index: 1;
+	opacity: 0.8;
+}
+fieldset.tree {
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-right: 3px;
+	vertical-align: top;
+}
+fieldset.tree.nofloat {
+	float: none;
+}
+div#tree {
+	width: 235px;
+	overflow: auto;
+	margin: 4px;
+}
+
+ul.tree {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 2em;
+}
+ul.first {
+	margin-left: 0;
+}
+li.tree {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+div.tree_root {
+	border-bottom: 1px solid #d0d0bf;
+}
+div.nodetree {
+	white-space: nowrap;
+}
+
+fieldset.treecontent {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+fieldset.treecontent.bottom {
+	margin-top: 4px;
+}
+div#treecontent {
+	width: 705px;
+	overflow: auto;
+	margin: 4px;
+}
+div#treecontentbottom {
+	width: 705px;
+	overflow: auto;
+	margin: 4px;
+}
+div#treecontent.full {
+	width: 100%;
+}
+
+ul.breadscrumb {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+li.breadscrumb {
+	float: left;
+	margin-right: 0.5em;
+}
+ul.treecontent {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li.treecontent {
+	float: left;
+	width: 105px;
+	margin-top: 5px;
+	margin-right: 3px;
+	text-align: left;
+}
+fieldset.nodecontent {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+li.treecontent.usercontent {
+}
+div.content_actions {
+	height: 3em;
+	width: 100px;
+	font-size: 0.9em;
+	text-align: center;
+	overflow: hidden;
+}
+.treecontentadd {
+	height: 120px;
+	margin-top: 1em;
+}
+li.treecontentadd {
+	float: left;
+}
+div.nodecontent {
+	text-align: center;
+}
+
+fieldset.treeright {
+	margin: 0;
+	padding: 0;
+	float: left;
+	vertical-align: top;
+}
+div#treeright {
+	width: 230px;
+	overflow: auto;
+	margin: 4px;
+}
+fieldset.treecontent.middle {
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-right: 3px;
+	vertical-align: top;
+}
+div#treecontentcombined {
+	width: 460px;
+	overflow: auto;
+	margin: 4px;
+}
+div#tree_content_root {
+}

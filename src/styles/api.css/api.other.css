@@ -1,0 +1,24 @@
+/**
+ * all but IE
+**/
+fieldset {
+	border: 1px solid #d0d0bf;
+	-moz-border-radius: 4px; /* Gecko */
+	-webkit-border-radius: 5px; /* Apple webkit */
+	-khtml-border-radius: 4px; /* Konqueror */
+}
+legend {
+	margin-left: 5px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+div#warnings {
+	-moz-border-radius: 4px; /* Gecko */
+	-webkit-border-radius: 5px; /* Apple webkit */
+	-khtml-border-radius: 4px; /* Apple webkit */
+}
+div#floatbox {
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+	-khtml-opacity: 0.8;
+}

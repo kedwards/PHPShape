@@ -1,0 +1,7 @@
+/* menus */
+ul#menu li.menu {
+	margin-right: -1px;
+}
+ul#submenu li.menu {
+	margin-left: -1px;
+}

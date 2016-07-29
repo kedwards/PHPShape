@@ -1,0 +1,9 @@
+div#background {
+	height: 100%;
+}
+div#treecontentcombined p.errormsg {
+	height: 120px;
+}
+div#treecontent p.errormsg {
+	height: 120px;
+}
